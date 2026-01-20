@@ -13,7 +13,7 @@ Sebelum memulai, pastikan kamu sudah memiliki:
 Langkah pertama adalah mendownload kode ini ke komputer/VPS kamu. Buka terminal dan jalankan:
 
 ```bash
-git clone [https://github.com/zizking/Bot-wa-sender.git](https://github.com/zizking/Bot-wa-sender.git)
+git clone https://github.com/zizking/Bot-wa-sender.git
 cd Bot-wa-sender
 ```
 Kamu bisa memilih salah satu dari dua cara di bawah ini:
