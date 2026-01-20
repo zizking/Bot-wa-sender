@@ -8,7 +8,7 @@ sudo apt install -y python3 python3-pip
 
 echo "Menginstal semua library yang dibutuhkan..."
 if [ -f requirements.txt ]; then
-    pip install -r requirements.txt
+    pip install -r requirements.txt pip install -r requirements.txt --break-system-packages
 else
     echo "Peringatan: file requirements.txt tidak ditemukan!"
 fi
