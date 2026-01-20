@@ -50,10 +50,17 @@ Siapkan Data:
 • Pastikan wa_login.py siap untuk proses autentikasi
 
 2. Jalankan Bot:
+Sebelum menjalankan bot, kalian harus login terlebih dahulu
+```bash
+pyhton3 wa_login.py
+```
+setelah login kalian langsung saja menjalankan botnya
+
 ```bash
 python3 main.py
 ```
 
+Note: Nomor haru diawali 62xxxxx 
 
 
 Fitur Utama
