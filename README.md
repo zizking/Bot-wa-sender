@@ -50,17 +50,28 @@ Siapkan Data:
 • Pastikan wa_login.py siap untuk proses autentikasi
 
 2. Jalankan Bot:
-Sebelum menjalankan bot, kalian harus login terlebih dahulu
+Sebelum menjalankan bot, kalian harus terlebih dahulu masuk ke Lingkungan Virtual (env)
+```bash
+source env/bin/activate
+```
+Kemudian Kalian login dengan perintah 
 ```bash
 pyhton3 wa_login.py
 ```
-setelah login kalian langsung saja menjalankan botnya
+Setelah login kalian langsung saja menjalankan botnya
 
 ```bash
 python3 main.py
 ```
 
-Note: Nomor haru diawali 62xxxxx 
+3. Jalankan Bot dengan Screen
+Gunakan screen agar bot tidak mati saat koneksi terminal terputus:
+```bash
+screen -S botwa
+```
+
+
+Note: Nomor harus diawali 62xxxxx 
 
 
 Fitur Utama
